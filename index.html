@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #website {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            #nav_bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 700px;
+                padding: 20px 0px;
+
+                #nav_menu {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+
+                    #nav_text {
+                        color: gray;
+                        font-size: 20px;
+                    }
+
+                    #icons {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+
+                        #icon {
+                            height: 30px;
+                            width: 30px;
+                            border-radius: 50px;
+
+                        }
+
+
+                    }
+
+
+
+                }
+
+            }
+
+        }
+
+        #inside1 {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(rgba(0, 0, 255, 0.038), rgba(0, 0, 255, 0.302));
+            justify-content: center;
+            align-items: center;
+            border: 5px black solid;
+            padding: 150px 500px;
+            gap: 30px;
+            background: linear-gradient(to bottom, rgba(0, 175, 239, 0) 0%, rgba(0, 175, 239, 0) 2%, rgba(0, 175, 239, 0) 7%, rgba(240, 47, 23, 0) 11%, rgba(124, 109, 127, 0) 54%, rgba(0, 175, 239, 0.39) 100%), url("https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/home-bg.png") #000 fixed no-repeat;
+
+
+            #bundle {
+                font-size: 40px;
+                color: white;
+                font-weight: bold;
+
+
+                padding: 0px 5px;
+
+            }
+
+            #morethan {
+                font-size: 20px;
+                color: white;
+
+                width: 650px;
+            }
+
+            #box {
+                /* display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border: 5px;
+                gap: 20px; */
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                background-color: black;
+                align-items: center;
+                gap: 15px;
+                padding: 15px 15px;
+                border-radius: 5px;
+
+
+                #search {
+                    font-size: 20px;
+                    color: gray;
+                    background-color: white;
+                    padding: 0px 15px;
+
+
+
+
+                }
+
+                #subscribe {
+                    font-size: 15px;
+                    color: white;
+                    cursor: pointer;
+                    background-color: skyblue;
+                    border-radius: 5px;
+
+                }
+
+            }
+
+            #note {
+                font-size: 20px;
+                color: aliceblue;
+            }
+
+
+        }
+
+
+
+        #inside2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            padding: 30px 240px;
+            border: 3px gray solid;
+            background-color: rgba(240, 248, 255, 0.499) rgba(173, 216, 230, 0.773);
+
+
+            #box1 {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                padding: 0px 0px;
+
+                #img1 {
+                    border-radius: 50px;
+                    padding: 20px 20px;
+                    border: 2px rgb(9, 225, 241) solid;
+                }
+
+                #m1 {
+                    font-size: 20px;
+                    border: 2px;
+                    border-radius: 50px;
+                    padding: 0px 20px;
+                    width: 180px;
+
+                }
+
+            }
+
+
+
+        }
+
+        #inside3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 300px;
+            gap: 40px;
+
+            #sub1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+
+
+
+
+                #amazing {
+                    font-size: 40px;
+                    width: 600px;
+
+
+                }
+
+                #service {
+                    font-size: 25px;
+                    color: gray;
+                    width: 600px;
+                }
+
+                #dolor {
+                    font-size: 20px;
+                    color: silver;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+            }
+        }
+
+        #inside4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 300px;
+            gap: 40px;
+
+            #col {
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                #amazing {
+                    font-size: 30px;
+                    width: 600px;
+                }
+
+                #service {
+                    font-size: 25px;
+                    color: gray;
+                    width: 600px;
+                }
+
+                #dolor {
+                    font-size: 20px;
+                    color: silver;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+            }
+
+
+        }
+
+        #inside5 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 300px;
+            gap: 40px;
+
+            #sub1 {
+                gap: 300px;
+
+                #amazing {
+                    font-size: 30px;
+                }
+
+                #service {
+                    font-size: 25px;
+                    color: gray;
+                    width: 500px;
+                }
+
+                #dolor {
+                    font-size: 20px;
+                    color: silver;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+                }
+
+            }
+        }
+
+        #below {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            #below_1 {
+                font-size: 30px;
+                color: gray;
+                font-weight: bold;
+            }
+
+            #below_2 {
+                font-size: 20px;
+                color: gray;
+            }
+        }
+
+        #bottom {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 30px;
+            gap: 80px;
+        }
+        #commentsbox {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(237, 236, 236, 0.912);
+                padding: 20px 510px;
+                gap: 50px;
+
+                #cmtmoto {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+
+                    #chead {
+                        font-size: 30px;
+                        padding: 2px 250px;
+                        width: 400px;
+                        font-weight: bold;
+                        color: grey;
+
+                    }
+
+                    #csub {
+                        font-size: 20px;
+                        color: grey;
+                    }
+
+                }
+
+                #comments {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 10px;
+
+                    #comment1 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: rgba(255, 255, 255, 0.597);
+                        gap: 10px;
+                        
+                            
+                        
+
+                        #imgborder {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: rgba(226, 224, 224, 0.966);
+                            padding: 20px 10px;
+
+                            #cmtimg {
+                                border-radius: 50%;
+                            }
+
+                        }
+
+                        #cdis {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: start;
+                            gap: 10px;
+                            
+
+                            #rating {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: center;
+                                align-items: start;
+                                gap: 10px;
+
+                            }
+                        }
+
+
+
+                    }
+
+                }
+
+
+            }
+            #lastbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                #cont3 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+
+                    #contheading {
+                        font-size: 30px;
+
+                    }
+
+                    #contdis {
+                        color: grey;
+                        width: 320px;
+
+                        text-align: center;
+                    }
+
+                    button {
+                        background-color: rgb(116, 203, 238);
+                        color: white;
+                        border-radius: 3px;
+                        padding: 10px 20px;
+                        margin-top: 20px;
+                    }
+                }
+
+
+
+            }
+
+            #fot {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(234, 234, 234, 0.867);
+                padding: 10px 500px;
+                gap: 20px;
+
+                #two {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+
+                    #b1,
+                    #b2 {
+                        width: 380px;
+                    }
+
+                }
+
+                #b3 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+
+                    #xpost {
+                        background-color: #000;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        gap: 5px;
+
+
+                    }
+
+                    #like {
+                        background-color: rgb(33, 148, 243);
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                    }
+
+                }
+
+
+
+            }
+        
+        }
+    </style>
+</head>
+
+<body>
+    <div id="website">
+        <div id="nav_bar">
+            <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo.png"
+                alt="vardhan">
+            <div id="nav_menu">
+                <div id="nav_text">Stay connected</div>
+                <div id="icons">
+                    <img id="icon"
+                        src="data:image/png;base64,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"
+                        alt="">
+                    <img id="icon"
+                        src="data:image/jpeg;base64,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"
+                        alt="">
+                    <img id="icon"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxChcTNfQQBRFoIChvk9_2SfAtVTWs0Jj9hQ&s"
+                        alt="">
+                </div>
+            </div>
+        </div>
+        <div id="inside1">
+            <div id="bundle">HTML BUNDLE IS HERE</div>
+            <div id="morethan">More than 10 unique HTML templates in one bundle isn't that awesome with a lot of
+                features and great design brought to you by PixFort.</div>
+            <div id="box">
+                <input id="mail" type="email" placeholder="Enter your email">
+                <button id="subscribe">SUBSCRIBE NOW</button>
+            </div>
+            <div id="note">*Note: Bundle ends in two weeks from now.</div>
+        </div>
+        <div id="inside2">
+            <div id="box1">
+                <div id="img1"><img
+                        src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/1.png"
+                        alt=""></div>
+                <div id="m1"><b>+1500</b> High quality video tutorials.</div>
+            </div>
+
+            <div id="box1">
+                <div id="img1">
+                    <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/2.png"
+                        alt="">
+                </div>
+                <div id="m1"><b>+40</b>+ Days Free trial demo subscribtion.</div>
+            </div>
+            <div id="box1">
+                <div id="img1"><img
+                        src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/3.png"
+                        alt=""></div>
+                <div id="m1"><b>+75</b> New books from store.</div>
+            </div>
+
+        </div>
+        <div id="inside3">
+            <div id="sub1">
+                <div id="amazing">The most amazing thing is here</div>
+                <div id="service">Our service is astonishingly thin and light.</div>
+                <div id="dolor">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.</div>
+
+
+            </div>
+            <div id="pipimg"><img
+                    src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/machine.png"
+                    alt=""></div>
+
+        </div>
+        <div id="inside4">
+            <div id="sub1">
+                <div id="pip.img"><img
+                        src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/domains-that-never-sleep.png"
+                        alt=""></div>
+            </div>
+            <div id="col">
+                <div id="amazing">Bring it to life again with us</div>
+                <div id="service">Our service is astonishingly thin and light.</div>
+                <div id="dolor">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+
+
+        </div>
+        <div id="inside3">
+            <div id="sub1">
+                <div id="amazing">Responsive ready wordpress</div>
+                <div id="service">Our service is astonishingly thin and light.</div>
+                <div id="dolor">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex commodo consequat Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+
+
+            </div>
+            <div id="pip.img"><img
+                    src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/website-builder.png"
+                    alt=""></div>
+
+        </div>
+    </div>
+    <div id="below">
+        <div id="below_1">Great people trusted our services</div>
+        <div id="below_2">great words from great people</div>
+    </div>
+    <div id="bottom">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_1.png" alt="">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_2.png" alt="">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_3.png" alt="">
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/logo_4.png" alt="">
+    </div>
+    
+    <div id="commentsbox">
+        <div id="cmtmoto">
+            <div id="chead">What our awesome clients say</div>
+            <div id="csub">great words from great people</div>
+        </div>
+        <div id="comments">
+            <div id="comment1">
+                <div id="imgborder">
+                    <img id="cmtimg" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/testimonials/envato-logo.png" alt="">
+                </div>
+                <div id="cdis">
+                    <div id="com1">Im a web designer, you guys are very inspiring I wish to see more work from
+                        maybe
+                        more freebies.</div>
+                    <div id="rating">
+                        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/stars.original.png" alt="">
+                        <a href="">via envato.com</a>
+                    </div>
+                </div>
+            </div>
+            <div id="comment1">
+                <div id="imgborder">
+                    <img id="cmtimg" src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/testimonials/unboune-logo.png" alt="">
+                </div>
+                <div id="cdis">
+                    <div id="com1">Great service with fast and relible support The design work and detail put
+                        into
+                        themes are great.</div>
+                    <div id="rating">
+                        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/stars.original.png" alt="">
+                        <a href="">via pixfort.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="lastbox">
+        <div id="cont3">
+            <div id="contheading">Are you ready for this?</div>
+            <div id="contdis">More than 10,000 apps are waiting for you with awesome features and prices that
+                will
+                be great for you, join us now by entering you email and subscribe us now, wow.</div>
+            <button>subcribe now</button>
+        </div>
+        <img src="https://pixfort.website/themeforest/landing/flatpack/1-normal/images/1_normal/speed-and-security.png" alt="">
+    </div>
+    <div id="fot">
+        <div id="two">
+            <div id="b1">All rights reserved Copyright © 2014 FLATPACK by PixFort</div>
+            <div id="b2">Your likes & share makes us happy!</div>
+        </div>
+        <div id="b3">
+            <!-- <div id="xpost">
+                <img src="./images/xpost.webp" alt="" style="height:20px;;">
+                <div id="text">post</div>
+            </div> -->
+            <div id="like">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/FEppCFCt76d.png" alt="" style="height: 20px;">
+                <div id="text">like</div>
+
+            </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
+     
